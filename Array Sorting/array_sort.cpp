@@ -66,6 +66,7 @@ int main() {
             cout << arr[i] << ", ";
         }
     }
-    cout << "]";
+    cout << "]" << endl;
+    system("PAUSE");
 }
 
