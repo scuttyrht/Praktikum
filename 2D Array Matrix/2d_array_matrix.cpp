@@ -129,7 +129,7 @@ int main() {
                     pdct[i] = 0;
                     for (int j = 0; j < row; j++)
                     {
-                        pdct[i] += matrix[j][i];
+                        pdct[i] *= matrix[j][i];
                     }
                     cout << "Sum col ke-" << (i + 1) << ": " << pdct[i] << endl;
                     total_pdct_col += pdct[i];
