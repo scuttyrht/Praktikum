@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="scripts/form.js"></script>
+</head>
+<body>
+    <form method="post">
+        <div style="text-align: center; color: white; background-color: blue;"><br><h1>REGISTRASI</h1><br></div>
+        <table>
+            <caption>FORM REGISTRASI</caption>
+            <tr>
+                <td>Username</td>
+                <td>:</td>
+                <td><input type="text" name="username" id="uname" placeholder="Masukkan username..."></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>:</td>
+                <td><input type="password" name="password" id="pw" placeholder="Masukkan password..."></td>
+            </tr>
+            <tr>
+                <td>Nama Lengkap</td>
+                <td>:</td>
+                <td><input type="text" name="fullname" id="fname" placeholder="Masukkan nama lengkap..."></td>
+            </tr>
+            <tr>
+                <td>Tempat dan Tanggal Lahir</td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="tmpt_lahir" id="tmpt_lhr" placeholder="Masukkan tempat lahir...">
+                    <select id="tgl_lhr" name="tgl_lahir">
+                        <option selected disabled>Tanggal</option>
+                    </select>
+                    <select id="bln_lhr" name="bln_lahir">
+                        <option selected disabled>Bulan</option>
+                        <option value="1">Januari</option>
+                        <option value="2">Februari</option>
+                        <option value="3">Maret</option>
+                        <option value="4">April</option>
+                        <option value="5">Mei</option>
+                        <option value="6">Juni</option>
+                        <option value="7">Juli</option>
+                        <option value="8">Agustus</option>
+                        <option value="9">September</option>
+                        <option value="10">Oktober</option>
+                        <option value="11">November</option>
+                        <option value="12">Desember</option>
+                    </select>
+                    <select id="thn_lhr" name="thn_lahir">
+                        <option selected disabled>Tahun</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>:</td>
+                <td><textarea name="address" placeholder="Masukkan alamat..." rows="4" cols="48"></textarea></td>
+            </tr>
+            <tr>
+                <td>No. Telp/HP</td>
+                <td>:</td>
+                <td><input type="tel" name="no_hp" id="no_hp" placeholder="Masukkan No. Telp/HP..."></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="email_name" id="email_name" placeholder="Masukkan alamat email...">
+                    @
+                    <select name="email_suffix" id="email_suffix">
+                        <option selected disabled>Pilih suffix email</option>
+                        <option value="gmail.com">gmail.com</option>
+                        <option value="outlook.com">outlook.com</option>
+                        <option value="yahoo.com">yahoo.com</option>
+                        <option value="live.com">live.com</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="jk" id="jk" value="L">Pria<br>
+                    <input type="radio" name="jk" id="jk" value="P">Wanita<br>
+                </td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td>:</td>
+                <td>
+                    <select name="religion" id="agm">
+                        <option selected disabled>Pilih Agama Anda</option>
+                        <option value="Tidak ada">Tidak ada</option>
+                        <option value="Kristen">Kristen</option>
+                        <option value="Islam">Islam</option>
+                        <option value="Buddha">Buddha</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Hobi</td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" name="hobbies" id="hobi" value="Baca Buku">Baca Buku 
+                    <input type="checkbox" name="hobbies" id="hobi" value="Olahraga">Olahraga 
+                    <input type="checkbox" name="hobbies" id="hobi" value="Gaming">Gaming
+                    <input type="checkbox" name="hobbies" id="hobi" value="Other">Lain
+                </td>
+            </tr>
+            <tr>
+                <td>Upload Foto Anda</td>
+                <td>:</td>
+                <td><input type="file" name="foto"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><input type="submit" class="btn btn-primary">&nbsp;<input type="reset" value="Clear" class="btn btn-primary"></td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>

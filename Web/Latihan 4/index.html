@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Framing</title>
+        <style>
+            /* Untuk membuat container iframe ditengah layar dengan ukuran tertentu */
+            .container {
+                position: absolute;
+                border: 1px solid black;
+                height: 80%;
+                width: 50%;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            /* Memberi border pada setiap iframe */
+            iframe {
+                border: 1px solid gray;
+            }
+        </style>
+    </head>
+    <body style="height: 100%;">
+        <!-- Memasukkan iframe dalam div ber-class container -->
+        <div class="container">
+            <!-- Memanggil iframe dari source tertentu dengan kelebaran tertentu -->
+            <iframe width="147px" height="100%" src="frames/lft.html"></iframe>
+            <iframe width="409px" height="100%" src="frames/cntr.html"></iframe>
+            <iframe width="171px" height="100%" src="frames/rght.html"></iframe>
+        </div>
+    </body>
+</html>

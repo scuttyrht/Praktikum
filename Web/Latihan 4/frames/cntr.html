@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                padding: 10px;
+            }
+            /* Memberi border dan padding pada container biodata */
+            .container {
+                border: 1px solid gray;
+                padding-top: 20px;
+            }
+            /* Membuat judul container yang tertumpuk diatas border container */
+            .container-title {
+                position: relative;
+                left: 10px;
+                top: -30px;
+                display: inline-block;
+                background-color: white;
+            }
+            /* Untuk menaikkan semua konten dalam container */
+            .container-content {
+                padding: 10px;
+                position: relative;
+                top: -25px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+        <div class="container">
+            <span class="container-title">Biodata</span>
+            <div class="container-content">
+                Nama Depan&nbsp; &nbsp; &nbsp;: <input type="text" name="fname"><br>
+                Nama Belakang : <input type="text" name="lname"><br>
+                <br>
+                Saya suka buah:<br>
+                <input type="checkbox" name="buah-fav" value="tomat">Tomat<br>
+                <input type="checkbox" name="buah-fav" value="apel">Apel<br>
+                <span style="position: relative; bottom: -20px;">
+                    Jenis Kelamin:<br>
+                    <input type="radio" name="jk" value="laki-laki">Laki-Laki<br>
+                    <input type="radio" name="jk" value="perempuan">Perempuan<br>
+                    <br>
+                    Usia:<br>
+                    <input type="radio" name="usia" value="dewasa">Dewasa<br>
+                    <input type="radio" name="usia" value="anak-anak">Anak-Anak
+                </span>
+            </div>
+        </div>
+        <br>
+        Merk mobil yang anda suka:<br>
+        <select name="merk-mobil-fav">
+            <option selected disabled>Pilih Merk</option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="Volvo">Volvo</option>
+        </select>
+        <br><br>
+        <input type="submit">&nbsp;<input type="reset" value="Clear">
+        </form>
+    </body>
+</html>

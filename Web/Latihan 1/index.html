@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KBB Meluap, Stasiun Tanah Abang Tergenang</title>
+        <style>
+            .main {
+                /* Set div utama dengan lebar dan font tertentu */
+                width: 7.6in;
+                font-family: Arial, Helvetica, sans-serif;
+                /* Set border dengan ketebalan 10px, bertipe solid, dan berwarna hitam */
+                border: 10px solid black;
+                padding: 15px;
+            }
+            .container {
+                /* Set container dengan lebar 5.4 inci, dan diposisikan di tengah div `main` */
+                width: 5.4in;
+                margin: 0 auto;
+                position: relative;
+            }
+            .emphasizer {
+                /* Set teks dalam class `emphasizer` menjadi tebal dan diberi ukuran font tertentu */
+                font-size: 24px;
+                font-weight: bold;
+            }
+            .footer {
+                /* Set footer dengan flex-end untuk diposisikan di sebelah kanan */
+                display: flex;
+                justify-content: flex-end;
+                padding: 10px;
+            }
+            h1 {
+                text-align: center;
+                font-size: 30px;
+                color: blue;
+            }
+            p {
+                /* Meng-justify semua text dalam tag <p> */
+                text-align: justify;
+            }
+            ul {
+                font-size: 20px;
+                /* Set tipe bullet untuk listing */
+                list-style: circle;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main"> <!-- Set div sebagai main -->
+            <h1><u>KBB Meluap, Stasiun Tanah Abang Tergenang</u></h1> <!-- Memberi tag <u> untuk underline -->
+            <p style="padding-right: 20px;">
+                Sampai saat ini belum diketahui apakah ada gangguan layanan di Stasiun Tanah Abang karena
+                kejadian tersebut. Namun, pantauan 
+                <!-- Membuat hyperlink untuk text --> <b><a href="https://detik.com/">detikcom</a></b>, 
+                tidak terlihat ada kereta yang berada di atas rel yang tergenang.
+            </p>
+            <div class="container" style="padding-right: 40px;"> <!-- Set div sebagai container -->
+                <p style="color: red;">
+                    Diberitakan sebelumnya hujan dari tengah malam sampai pagi hari serta timbulnya genangan
+                    membuat perjalanan Kereta Rel Listrik (KRL) terganggu. PT Kereta Commuter Indonesia
+                    melakukan beberapa rekayasa perjalanan.
+                </p>
+            </div>
+            <p style="padding-right: 50px; font-size: 17.5px;">
+                <!-- Memiringkan teks dan memberikan underline dengan tag <i> dan <u> -->
+                <span class="emphasizer"><i><u>PT Kereta Commuter Indonesia</u></i></span>
+                memohon maaf atas kendala perjalanan KRL yang terjadi akibat genangan air yang merendam jalur
+                rel di sejumlah lokasi pada pagi hari ini.
+            </p>
+            <span>Genangan terpantau di lintas antara:</span>
+            <ul>
+                <li>Stasiun Kampung Bandan</li>
+                <li>Stasiun Kemayoran,</li>
+                <li>Stasiun Sudirman,</li>
+            </ul>
+            <!-- Set div sebagai footer dan menebalkan teks dengan tag <b> -->
+            <div class="footer"><b>PT KCI Anne Purba, dalam keterangannya.</b></div>
+        </div>
+    </body>
+</html>

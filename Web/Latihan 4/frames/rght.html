@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Mencegah supaya teks tidak membuat baris baru ketika melewati batas teks */
+        body {
+            white-space: nowrap;
+        }
+        /* Untuk memojokkan list ke kiri */
+        ul {
+            list-style-type: none;
+            position: relative;
+            left: -40px;
+        }
+        /* Supaya sublist tidak ikut terrata ke kiri div */
+        .algn-ul {
+            left: 0px;
+        }
+    </style>
+</head>
+<body>
+    <b>Definition List:</b>
+    <br><br>
+    <ul>
+        <li>Nasi:</li>
+        <ul class="algn-ul">
+            <li>Nasi Putih</li>
+            <li>Nasi Uduk</li>
+            <li>Nasi Rames</li>
+        </ul>
+        <li>Sayur:</li>
+        <ul class="algn-ul">
+            <li>Sayur Asem</li>
+            <li>Sayur Lodeh</li>
+        </ul>
+        <li>Ikan:</li>
+        <ul class="algn-ul">
+            <li>Ikan Abong</li>
+            <li>Ikan Teri</li>
+            <li>Ikan Bandeng</li>
+        </ul>
+        <li>Sambal Goreng</li>
+        <li>Lalap:</li>
+        <ul class="algn-ul">
+            <li>Jengkol</li>
+            <li>Pete</li>
+            <li>Terong Ijo</li>
+        </ul>
+    </ul>
+</body>
+</html>
