@@ -1,0 +1,14 @@
+----------------------------------------
+Core Java by John
+Head First Java by Bob
+Java for Dummies by Sue
+----------------------------------------
+Hobbits name is Bilbo
+Hobbits name is Frodo
+Hobbits name is Sam
+----------------------------------------
+Triangle: height=2, length=0, area=0.0
+Triangle: height=3, length=2, area=3.0
+Triangle: height=4, length=4, area=8.0
+Triangle: height=5, length=6, area=15.0
+----------------------------------------

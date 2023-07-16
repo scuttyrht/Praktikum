@@ -1,0 +1,102 @@
+#######################################################
+Dog name: Alex, size: 50, breed: Dalmatian
+Guk Guk
+#######################################################
+Playing the movie
+Title: Top Gun, Genre: Action, Rating: 5
+#######################################################
+I'm thinking of a number between 35 and 84...
+Number to guess is 37
+I'm guessing 114
+I'm guessing 102
+I'm guessing 98
+Player one guessed 114
+Player two guessed 102
+Player three guessed 98
+Players will have to try again.
+-------------------------------
+Number to guess is 37
+I'm guessing 71
+I'm guessing 75
+I'm guessing 36
+Player one guessed 71
+Player two guessed 75
+Player three guessed 36
+Players will have to try again.
+-------------------------------
+Number to guess is 37
+I'm guessing 87
+I'm guessing 54
+I'm guessing 66
+Player one guessed 87
+Player two guessed 54
+Player three guessed 66
+Players will have to try again.
+-------------------------------
+Number to guess is 37
+I'm guessing 74
+I'm guessing 43
+I'm guessing 47
+Player one guessed 74
+Player two guessed 43
+Player three guessed 47
+Players will have to try again.
+-------------------------------
+Number to guess is 37
+I'm guessing 75
+I'm guessing 51
+I'm guessing 35
+Player one guessed 75
+Player two guessed 51
+Player three guessed 35
+Players will have to try again.
+-------------------------------
+Number to guess is 37
+I'm guessing 82
+I'm guessing 63
+I'm guessing 77
+Player one guessed 82
+Player two guessed 63
+Player three guessed 77
+Players will have to try again.
+-------------------------------
+Number to guess is 37
+I'm guessing 89
+I'm guessing 87
+I'm guessing 56
+Player one guessed 89
+Player two guessed 87
+Player three guessed 56
+Players will have to try again.
+-------------------------------
+Number to guess is 37
+I'm guessing 66
+I'm guessing 42
+I'm guessing 101
+Player one guessed 66
+Player two guessed 42
+Player three guessed 101
+Players will have to try again.
+-------------------------------
+Number to guess is 37
+I'm guessing 69
+I'm guessing 59
+I'm guessing 62
+Player one guessed 69
+Player two guessed 59
+Player three guessed 62
+Players will have to try again.
+-------------------------------
+Number to guess is 37
+I'm guessing 112
+I'm guessing 37
+I'm guessing 91
+Player one guessed 112
+Player two guessed 37
+Player three guessed 91
+We have a winner!
+Player one got it right? false
+Player two got it right? true
+Player three got it right? false
+Game is over.
+#######################################################

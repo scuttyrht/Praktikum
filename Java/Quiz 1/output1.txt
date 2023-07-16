@@ -1,0 +1,129 @@
+#######################################################
+Dog name: Alex, size: 50, breed: Dalmatian
+Guk Guk
+#######################################################
+Playing the movie
+Title: Top Gun, Genre: Action, Rating: 5
+#######################################################
+I'm thinking of a number between 45 and 86...
+Number to guess is 105
+I'm guessing 116
+I'm guessing 63
+I'm guessing 116
+Player one guessed 116
+Player two guessed 63
+Player three guessed 116
+Players will have to try again.
+-------------------------------
+Number to guess is 105
+I'm guessing 96
+I'm guessing 54
+I'm guessing 56
+Player one guessed 96
+Player two guessed 54
+Player three guessed 56
+Players will have to try again.
+-------------------------------
+Number to guess is 105
+I'm guessing 78
+I'm guessing 93
+I'm guessing 80
+Player one guessed 78
+Player two guessed 93
+Player three guessed 80
+Players will have to try again.
+-------------------------------
+Number to guess is 105
+I'm guessing 126
+I'm guessing 97
+I'm guessing 57
+Player one guessed 126
+Player two guessed 97
+Player three guessed 57
+Players will have to try again.
+-------------------------------
+Number to guess is 105
+I'm guessing 86
+I'm guessing 72
+I'm guessing 77
+Player one guessed 86
+Player two guessed 72
+Player three guessed 77
+Players will have to try again.
+-------------------------------
+Number to guess is 105
+I'm guessing 68
+I'm guessing 118
+I'm guessing 80
+Player one guessed 68
+Player two guessed 118
+Player three guessed 80
+Players will have to try again.
+-------------------------------
+Number to guess is 105
+I'm guessing 84
+I'm guessing 112
+I'm guessing 56
+Player one guessed 84
+Player two guessed 112
+Player three guessed 56
+Players will have to try again.
+-------------------------------
+Number to guess is 105
+I'm guessing 78
+I'm guessing 100
+I'm guessing 113
+Player one guessed 78
+Player two guessed 100
+Player three guessed 113
+Players will have to try again.
+-------------------------------
+Number to guess is 105
+I'm guessing 49
+I'm guessing 114
+I'm guessing 130
+Player one guessed 49
+Player two guessed 114
+Player three guessed 130
+Players will have to try again.
+-------------------------------
+Number to guess is 105
+I'm guessing 48
+I'm guessing 62
+I'm guessing 94
+Player one guessed 48
+Player two guessed 62
+Player three guessed 94
+Players will have to try again.
+-------------------------------
+Number to guess is 105
+I'm guessing 57
+I'm guessing 48
+I'm guessing 116
+Player one guessed 57
+Player two guessed 48
+Player three guessed 116
+Players will have to try again.
+-------------------------------
+Number to guess is 105
+I'm guessing 78
+I'm guessing 106
+I'm guessing 119
+Player one guessed 78
+Player two guessed 106
+Player three guessed 119
+Players will have to try again.
+-------------------------------
+Number to guess is 105
+I'm guessing 46
+I'm guessing 105
+I'm guessing 58
+Player one guessed 46
+Player two guessed 105
+Player three guessed 58
+We have a winner!
+Player one got it right? false
+Player two got it right? true
+Player three got it right? false
+Game is over.
+#######################################################
